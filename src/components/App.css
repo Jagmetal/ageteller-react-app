@@ -1,0 +1,37 @@
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 5%;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+
+  .FormControlDate {
+    width: 150px;
+    margin: 0 auto; 
+  }
+  
+  .luigi {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .fade {
+    animation-name: fade-in;
+    animation-duration: 2s;
+  }
+
+  .age-stats {
+    opacity: 100;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
